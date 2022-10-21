@@ -5,7 +5,7 @@ let currtime = document.querySelector(".time");
 let currmerd = document.querySelector(".merd");
 
 setInterval(() => {
-    // let days = ["Friday","Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"];
+   
     let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     let time = new Date();
     let hour = time.getHours();
@@ -19,5 +19,5 @@ setInterval(() => {
     currday.textContent = day;
     currmerd.textContent = merd;
     currtime.textContent=Math.abs(hour)+":" +minute+ ":" +second;
-    
+
 },1000);
