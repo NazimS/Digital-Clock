@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 38, 38);
+    height: 100vh;
+    flex-direction: column;
+    font-size: 2rem;
+    letter-spacing: 6px;
+}
+.container .clock {
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .clock .date {
+    height: 100px;
+    width: 100px;
+    background-color: #26b865;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 0 8px skyblue;
+}
+.container .clock .time {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 0 8px skyblue;
+    text-shadow: 0 0 8px skyblue;
+    background-image: linear-gradient(to right top,#a8eb12, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.container .clock .merd {
+    height: 100px;
+    width: 100px;
+    background-color: #26b865 ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 0 5px skyblue;
+}
+.container .day {
+    width: 620px;
+    height: 50px;
+    background-color: #26b865 ;
+    color: white;
+    margin-bottom: 12px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px skyblue;
+}
+.container .bless {
+    width: 400px;
+    height: 30px;
+    color: yellowgreen;
+    font-size: 14px !important;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px skyblue;
+}
